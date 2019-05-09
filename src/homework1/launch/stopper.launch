@@ -1,0 +1,10 @@
+<launch>
+
+  <arg name="stop_distance" default="0.5" />
+  <param name="stop_distance" value="$(arg stop_distance)" />
+
+  <include file="$(find turtlebot_stage)/launch/turtlebot_in_stage.launch" />
+
+  <node name="stopper" pkg="homework1" type="stopper.py" output="screen" />
+
+</launch>

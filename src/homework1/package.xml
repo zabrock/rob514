@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>homework1</name>
+  <version>0.0.1</version>
+  <description>Zachary Brock's homework1 package. This package is used primarily
+  to fulfill the course requirements for Oregon State University's ROB514 Introduction
+  to Robotics course.
+  </description>
+
+  <maintainer email="brockz@oregonstate.edu">Zachary Brock</maintainer>
+
+  <license>BSD</license>
+
+  <author email="brockz@oregonstate.edu">Zachary Brock</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>math</build_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>tf</build_export_depend>
+  <build_export_depend>math</build_export_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>math</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

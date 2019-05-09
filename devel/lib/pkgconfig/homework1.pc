@@ -1,0 +1,8 @@
+prefix=/home/zabrock/catkin_ws/devel
+
+Name: homework1
+Description: Description of homework1
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/zabrock/catkin_ws/devel/lib 
+Requires: 
